@@ -44,3 +44,7 @@ Makefile
 CTestTestfile.cmake
 bin/
 lib/
+Testing/
+
+# Generated test files (keep original test data)
+tests/*-to-*.bin
