@@ -12,6 +12,16 @@ This project supports RWKV [v4](https://huggingface.co/BlinkDL/rwkv-4-pile-14b),
 
 Loading LoRA checkpoints in [Blealtan's format](https://github.com/Blealtan/RWKV-LM-LoRA) is supported through [merge_lora_into_ggml.py script](rwkv%2Fmerge_lora_into_ggml.py).
 
+## rwkvoir - Reservoir Computing Extension
+
+**NEW**: This repository now includes **rwkvoir**, a reservoir computing extension that implements ReservoirPy-style features in C++. rwkvoir provides:
+- Echo State Networks (ESN) for time series prediction
+- Node-based modular architecture
+- Model composition with automatic execution ordering
+- Ridge regression readout
+
+See [docs/RWKVOIR.md](docs/RWKVOIR.md) for detailed documentation and examples.
+
 <!-- TODO: Update data below -->
 
 ## Quality and performance

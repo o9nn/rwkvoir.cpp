@@ -1,5 +1,8 @@
 *.o
 *.a
+*.so
+*.dll
+*.dylib
 .cache/
 .vs/
 .vscode/
@@ -32,3 +35,12 @@ compile_commands.json
 .venv
 __pycache__
 .swiftpm
+
+# CMake build artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+bin/
+lib/
