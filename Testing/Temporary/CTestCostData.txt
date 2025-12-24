@@ -1,0 +1,9 @@
+test_ggml_basics 1 0.00390288
+test_quantized_matmul_on_gpu 1 0.000902531
+test_tiny_rwkv 1 0.647299
+test_quantization_format_compatibility 1 0.0705217
+test_logit_calculation_skipping 1 0.0237578
+test_eval_sequence_in_chunks 1 0.105587
+test_context_cloning 1 0.0184751
+test_rwkvoir 1 0.00140222
+---

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/rwkvoir.dir/link.d -shared -Wl,-soname,librwkvoir.so -o librwkvoir.so CMakeFiles/rwkvoir.dir/rwkvoir.cpp.o  -lm

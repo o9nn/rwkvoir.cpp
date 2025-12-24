@@ -55,3 +55,9 @@ rwkv_add_test(test_quantization_format_compatibility.c)
 rwkv_add_test(test_logit_calculation_skipping.c)
 rwkv_add_test(test_eval_sequence_in_chunks.c)
 rwkv_add_test(test_context_cloning.c)
+
+# Add rwkvoir test
+add_executable(test_rwkvoir test_rwkvoir.c)
+target_link_libraries(test_rwkvoir PRIVATE rwkvoir m)
+target_include_directories(test_rwkvoir PRIVATE ${CMAKE_SOURCE_DIR})
+add_test(NAME test_rwkvoir COMMAND $<TARGET_FILE:test_rwkvoir>)

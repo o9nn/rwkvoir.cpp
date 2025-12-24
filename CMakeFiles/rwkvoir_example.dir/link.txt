@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/rwkvoir_example.dir/link.d CMakeFiles/rwkvoir_example.dir/examples/rwkvoir_example.c.o -o bin/rwkvoir_example  -Wl,-rpath,/home/runner/work/rwkvoir.cpp/rwkvoir.cpp librwkvoir.so -lm
